@@ -1,6 +1,5 @@
 body{
-           background-image: linear-gradient(120deg, rgb(0, 0, 0) 50%,rgb(243, 0, 0));
-            margin: 0em 2em;
+              margin: 0em 2em;
             height:100vh;
         }
         header{
@@ -31,16 +30,22 @@ body{
         header ul{
             gap: 2em;
         }
+        header a{
+            text-decoration: none;
+        }
         .main_page{
+            background-image: linear-gradient(120deg, rgb(0, 0, 0) 50%,rgb(243, 0, 0));
+         
             height: 100%;
             /* background-image: linear-gradient(120deg, rgb(0, 0, 0) 50%,rgb(243, 0, 0)); */
             color:white;
          
-            padding-top: 15em;
-            padding-bottom: 16em;
+            padding-top: 10em;
+            /* padding-bottom: 16em; */
             height: 100%;  
         }
         .main_page h1{
+            
             font-size: 7em;
             background: linear-gradient(to left , red, white,black);
              -webkit-background-clip: text;
@@ -57,7 +62,7 @@ body{
         
         .main_page button{
             font-size: 1em;
-            margin: 1em;
+            /* margin: 3em 1em 4em 1em ; */
             padding: 0.4em 3em 0.4em 3em;
             border-radius: 1em;
         }
@@ -66,4 +71,11 @@ body{
         }
         .bold p b{
             font-size:2em ;
+        }
+        /* Home PAge Style end */
+        
+        /* About page*/
+        .about_page{
+            background-image: linear-gradient(to right, rgb(0, 0, 0) 30%,rgb(243, 0, 0));
+            color: white;
         }

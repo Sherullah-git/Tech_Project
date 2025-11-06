@@ -1,6 +1,9 @@
 body{
-              margin: 0em 2em;
+    background-image: linear-gradient(120deg, rgb(0, 0, 0) 50%,rgb(243, 0, 0));
+    background-repeat:repeat-y;    
+    margin: 0px 0px;
             height:100vh;
+            width: 100vw;
         }
         header{
             position: fixed;
@@ -34,7 +37,7 @@ body{
             text-decoration: none;
         }
         .main_page{
-            background-image: linear-gradient(120deg, rgb(0, 0, 0) 50%,rgb(243, 0, 0));
+            /* background-image: linear-gradient(120deg, rgb(0, 0, 0) 50%,rgb(243, 0, 0)); */
          
             height: 100%;
             /* background-image: linear-gradient(120deg, rgb(0, 0, 0) 50%,rgb(243, 0, 0)); */
@@ -44,21 +47,15 @@ body{
             /* padding-bottom: 16em; */
             height: 100%;  
         }
-        .main_page h1{
+        .main_page .heading{
             
             font-size: 7em;
             background: linear-gradient(to left , red, white,black);
              -webkit-background-clip: text;
              -webkit-text-fill-color:transparent;
              margin-bottom: 0.5em;
-              /* text-shadow: 5px 0px  red,5px 5px white ; */
-            animation: gradientMove 9s ease infinite; 
+             
              }
-        @keyframes gradientMove{
-            0%{background-position:0% 50%;}
-            50%{background-position:100% 50%}
-            100%{background-position:0% 50% }
-        }
         
         .main_page button{
             font-size: 1em;
@@ -66,16 +63,19 @@ body{
             padding: 0.4em 3em 0.4em 3em;
             border-radius: 1em;
         }
-        .main_p{
-            font-size: 1.5em;
-        }
-        .bold p b{
-            font-size:2em ;
-        }
         /* Home PAge Style end */
         
         /* About page*/
         .about_page{
+            padding:3% 0% 10% 0% ;
+            margin-top: -5%;
             background-image: linear-gradient(to right, rgb(0, 0, 0) 30%,rgb(243, 0, 0));
             color: white;
+        }
+        footer {
+            color: white;
+        }
+        footer a{
+            text-decoration: none;
+            color:white;
         }

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--  saqib css start -->
+    <style>
+        .services-section {
+         padding:0px 100px 0px 100px ;
+            font-family: "Poppins", sans-serif;
+            background-color: rgb(1, 1, 19);
+            color: #fff;
+        
+            text-align: center;
+            padding: 80px 20px;
+        }
+        
+        .services-section h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+        }
+        
+    
+        .services-section h1 span {
+            background: linear-gradient(90deg, #ff4e4e, #000000);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .services-section p {
+            color: #9ca3af;
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+        
+        .underline {
+            width: 80px;
+            height: 3px;
+       
+            background: linear-gradient(90deg, #d5d8dc, #ee0c13);
+            margin: 15px auto 50px;
+            border-radius: 5px;
+        }
+        
+        .services-container {
+            width: 80%;
+            /* display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 0 auto; */
+        }
+        
+        .service-card {
+            /* margin-left: 100px; */
+            background: rgba(226, 7, 7, 0.916);
+            border-radius: 12px;
+            padding: 30px 25px;
+            text-align: left;
+            transition: 0.3s;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            width: 30%;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-8px);
+            border: 1px solid white;
+        }
+        
+        .service-icon {
+            font-size: 40px;
+            color: #ff4e4e;
+            margin-bottom: 15px;
+        }
+        
+        .service-icon img {
+            height: 30px;
+        
+            background-image:rgb(95, 4, 4) ;
+        }
+        
+        .service-card h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .service-card p {
+            color: #9ca3af;
+            font-size: 0.95rem;
+        }
+        
+        .cta {
+            margin-top: 60px;
+            text-align: center;
+        }
+        
+        .cta p {
+            color: #9ca3af;
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta button {
+            background: linear-gradient(90deg, #f1f2f4, #f00505);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+        
+        .cta button:hover {
+            transform: scale(1.05);
+        }
+
+       .row1{
+        display: flex;
+        justify-content: space-between;
+        
+       } 
+       .row2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+       }
+
+       
+
+
+
+
+
+    .choose-us {
+      text-align: center;
+      padding: 60px 20px;
+      background-color:#fe656dfa;
+    }
+
+    .choose-us h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .choose-us h1 span {
+      background: linear-gradient(90deg, #cfc0c0, #ff4346);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .choose-us p.subtitle {
+      color: #000000;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, #e8e7eb, #1b0303);
+      margin: 0 auto 50px;
+    }
+
+  
+    .features {
+      width: 100%;
+      /* display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 50px 80px;
+      justify-items: center; */
+    }
+
+    .card {
+      /* display: flex;
+      flex-direction: column; */
+      align-items: center;
+      text-align: center;
+      width: 250px;
+      background-color:#fe656dfa;
+      border-bottom: #fe656dfa;
+      
+    }
+
+  
+    .icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 15px;
+      background: linear-gradient(135deg, #eeecec, #ec0918);
+      font-size: 28px;
+      margin-bottom: 50px;
+      box-shadow: 0 4px 15px rgba(228, 31, 31, 0.4);
+
+    }
+    .card h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #0c0202;
+      margin-bottom: 10px;
+    }
+
+    .feature-card p {
+      color: #b52028d0;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+  
+    .dots {
+      margin-top: 60px;
+    }
+
+    .dots span {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin: 0 4px;
+    }
+
+    .dots span.active {
+      background: linear-gradient(90deg, #030000, #e16a6a);
+    }
+
+  
+      .choose-us h1 {
+        font-size: 2.2rem;
+      }
+      
+    
+      
+    
+       
+
+
+    </style>
+    <!-- saqib css code end -->
+</head>
+
+<body>
+    <!-- saqib html start -->
+    <section class="services-section">
+        <h1>Our <span>Services</span></h1>
+        <p>Comprehensive technology solutions designed to transform your business</p>
+        <div class="underline"></div>
+        <center>
+
+            <div class="services-container">
+                
+                <div class="row1">
+                    
+                    <div class="service-card ">
+                        <div class="service-icon"> <img src="1.png" alt=""></div>
+
+                        <h3>Machine Learning</h3>
+                        <p>Predictive models & data automation</p>
+                    </div>
+                    
+                    <div class="service-card ">
+                        <div class="service-icon"><img src="2.png" alt=""> </div>
+                        <h3>Deep Learning</h3>
+                        <p>Neural networks for speech/image recognition</p>
+                    </div>
+                    
+                    <div class="service-card">
+                    <div class="service-icon"><img src="3.png" alt=""> </div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>Human-like automation and intelligent systems</p>
+                </div>
+            </div>
+            <!-- row 1 end -->
+            <div class="row2">
+                
+                <div class="service-card">
+                        <div class="service-icon"><img src="4.png" alt=""> </div>
+                        <h3>Full-Stack Development</h3>
+                        <p>Web & backend system integration</p>
+                    </div>
+                   
+                    <div class="service-card">
+                        <div class="service-icon"><img src="5.png" alt=""> </div>
+                        <h3>Mobile App Development</h3>
+                        <p>Android/iOS user-friendly apps</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon"><img src="6.png" alt=""> </div>
+                        <h3>Robotics</h3>
+                        <p>Design and deploy automated robotic systems</p>
+                    </div>
+                </div>
+                <!-- roww 2 end -->
+            </div>
+        </center>
+
+        <div class="cta">
+            <p>Ready to transform your business with cutting-edge technology?</p>
+            <button>Get Started Today</button>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+ <section class="choose-us">
+    <h1>Why Choose <span>Us</span></h1>
+    <p class="subtitle">What sets us apart from the competition</p>
+    <div class="divider"></div>
+    <div class="features">
+<div class="row">
+  <div class="col-2"></div>
+      <div class="col card">
+        <div class="icon"></div>
+        <h3>Expertise</h3>
+        <p>Up-to-date, industry-standard development</p>
+      </div>
+      <div class="col-2"></div>
+      <div class="col card"><img src="" alt="">
+        <div class="icon"></div>
+        <h3>Commitment to Quality</h3>
+        <p>Precision & detail in every deliverable</p>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <br><br>
+     <div class="row">
+     
+        <div class="col-2"></div>
+      <div class="card col">
+        <div class="icon"></div>
+        <h3>Customer Focus</h3>
+        <p>Personalized service for each client</p>
+      </div>
+
+        <div class="col-2"></div>
+      <div class="card col">
+        <div class="icon"></div>
+        <h3>Innovation-Driven</h3>
+        <p>Powered by modern tech stacks & research</p>
+      </div>
+  <div class="col-2"></div>
+    </div>
+    <div class="dots">
+      <span></span>
+      <span class="active"></span>
+      <span></span>
+      <span></span>
+    </div>
+</div>
+  </section>
+</body>
+</html>
+<!-- saqib html end -->

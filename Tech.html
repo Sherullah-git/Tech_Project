@@ -5,45 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY first Project </title>
-    <!-- link Font Awesome -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    \<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
-    <link rel="stylesheet" href="style.css">
-    </head>s
+    <link rel="stylesheet" href="Css/style.css">
+    </head>
 
     <body>
     <!-- Navbar -->
     <header class="container-fluid gap-5 ">
-        <div class="row" style="">
-
-            <div class="col-2"  >
-                <img src="images/logo.jpg" width="100px" style=" padding:0.5em;  border-left: 2px solid red; border-radius:50%  ;" alt="">
+        <div class="row logo">
+            <div class="col-5"  >
+                <img src="images/logo.jpg" class="logo_img" width="100px" alt="">
             </div>
-            <div class=" col-10 logo py-0 " style="padding-left: 2px;">
-                
-                <h1 class="">Tech Life Fusion</h1>
+            <div class="  col-7">  
+                <h1 class="">Fusion Tech</h1>
             </div>
         </div>
             <ul class="nav d-flex justify-content-center">
                 <li class="nav-item">
-                    <a href="" class="nav-link active">Home</a>
+                    <a href="#home" class="nav-link text-light">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">About</a>
+                    <a href="#about" class="nav-link text-light" >About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Services</a>
+                    <a href="#services" class="nav-link text-light">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Portfolio</a>
+                    <a href="#portfolio" class="nav-link text-light">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Team</a>
+                    <a href="#team" class="nav-link text-light">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Contact</a>
+                    <a href="#footer" class="nav-link text-light">Contact</a>
                 </li>
             </ul>
              
@@ -66,26 +62,15 @@
                             <div class="col-4"><h1>4</h1><p>Experts</p></div>
                         </div>
                     </center>
-                <!-- <div class="d-flex justify-content-center gap-5 pr-1 bold">
-                    <span>
-                        <h1></h1>
-                        <p><b>20+</b><br>Clients</p>
-                    </span>
-                    <span>
-                        <p><b>24+</b><br>Projects</p>
-                    </span>
-                    <span>
-                        <p><b>4</b><br>Experts</p>
-                    </span>
-                </div> -->
+               
             </div>
     </section>
     <!-- section 1 end -->
-    <!-- section 2 Start -->
-    <section class="about_page ">
-          <h1 class="text-center" style="font-size: 3em; margin-top :1%; background: linear-gradient(to left ,rgb(10, 1, 1), rgb(247, 236, 236), rgb(255, 0, 0),white);  -webkit-background-clip: text; -webkit-text-fill-color:transparent; ">About Tech Life Fusion</h1>
+    <!-- section About Start -->
+    <section class="about_page " id="about">
+          <h1 class="text-center">About <span>Tech Life Fusion</span></h1>
           <center>
-            <div class="" style="border-bottom: 0.5em solid white; width: 7em; border-radius: 1em; margin-bottom: 5%;"></div>
+            <div class="uline" style=""></div>
           </center>
           <div  class="row"  style="display: flex; justify-content: center;">
             
@@ -107,23 +92,138 @@
         
         </div>
         <center>
-            <div class="row container" style=" justify-content:space-between; width: 100%;  text-align: center; margin:4%;">
+            <div class="row container" style=" justify-content:space-between; width: 100%;  text-align: center;">
                 <div class="col-2"><p><h1>1+</h1>Years of Innovation</p> </div>
                 <div class= "col-2"><p><h1>15+</h1>Technologies Mastered</p></div>
                 <div class="col-2"><p><h1>98%</h1>Succes Rate</p></div>
                 <div class="col-2"><p><h1>100%</h1>Client Satisfaction</p></div>
             </div>
         </center>
+        <br><br><br><br>
     </section>
+     <!-- section About End -->
+
+        <!-- Saqib Section Code start-->
+            <section class="services-section" id="services">
+        <h1>Our <span>Services</span></h1>
+        <p>Comprehensive technology solutions designed to transform your business</p>
+        <div class="underline"></div>
+        <center>
+
+            <div class="services-container">
+                
+                <div class="row1">
+                    
+                    <div class="service-card ">
+                        <div class="service-icon"> <img src="1.png" alt=""></div>
+
+                        <h3>Machine Learning</h3>
+                        <p>Predictive models & data automation</p>
+                    </div>
+                    
+                    <div class="service-card ">
+                        <div class="service-icon"><img src="2.png" alt=""> </div>
+                        <h3>Deep Learning</h3>
+                        <p>Neural networks for speech/image recognition</p>
+                    </div>
+                    
+                    <div class="service-card">
+                    <div class="service-icon"><img src="3.png" alt=""> </div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>Human-like automation and intelligent systems</p>
+                </div>
+            </div>
+            <!-- row 1 end -->
+            <div class="row2">
+                
+                <div class="service-card">
+                        <div class="service-icon"><img src="4.png" alt=""> </div>
+                        <h3>Full-Stack Development</h3>
+                        <p>Web & backend system integration</p>
+                    </div>
+                   
+                    <div class="service-card">
+                        <div class="service-icon"><img src="5.png" alt=""> </div>
+                        <h3>Mobile App Development</h3>
+                        <p>Android/iOS user-friendly apps</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon"><img src="6.png" alt=""> </div>
+                        <h3>Robotics</h3>
+                        <p>Design and deploy automated robotic systems</p>
+                    </div>
+                </div>
+                <!-- roww 2 end -->
+            </div>
+        </center>
+
+        <div class="cta">
+            <p>Ready to transform your business with cutting-edge technology?</p>
+            <button>Get Started Today</button>
+        </div>
+    </section>
+
+    <!-- Saqib Section 2 -->
+ <section class="choose-us" id="choose-us">
+    <h1>Why Choose <span>Us</span></h1>
+    <p class="subtitle">What sets us apart from the competition</p>
+    <div class="divider"></div>
+    <div class="features">
+<div class="row">
+  <div class="col-2"></div>
+      <div class="col card">
+        <div class="icon"></div>
+        <h3>Expertise</h3>
+        <p>Up-to-date, industry-standard development</p>
+      </div>
+      <div class="col-2"></div>
+      <div class="col card"><img src="" alt="">
+        <div class="icon"></div>
+        <h3>Commitment to Quality</h3>
+        <p>Precision & detail in every deliverable</p>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <br><br>
+     <div class="row">
+     
+        <div class="col-2"></div>
+      <div class="card col">
+        <div class="icon"></div>
+        <h3>Customer Focus</h3>
+        <p>Personalized service for each client</p>
+      </div>
+
+        <div class="col-2"></div>
+      <div class="card col">
+        <div class="icon"></div>
+        <h3>Innovation-Driven</h3>
+        <p>Powered by modern tech stacks & research</p>
+      </div>
+  <div class="col-2"></div>
+    </div>
+    <div class="dots">
+      <span></span>
+      <span class="active"></span>
+      <span></span>
+      <span></span>
+    </div>
+</div>
+  </section>
+         <!-- Saqib Section Code end -->
+
+
     <!-- Section Approch -->
-     <section class="approch">
+     <section class="approch" id="approch">
+         <center>
         <div class="approch_box">
-            
             <h1>Our <span> Approach</span></h1>
             <P>We listen, understand your needs, and build personalized solutions—from AI models to mobile apps and robotics. Every project is a collaboration. Every product is a reflection of your goals, delivered with our technical expertise.</P>
         </div>
-        <div class="row">
-            <div class="col box">
+
+            <div class="row" style="width: 70%;">
+                <div class="col box">
                 <img src="images/approch_box1.svg" alt="">
                 <h3>discovery</h3>
                 <p>We listen and understand your unique needs and challenges</p>
@@ -144,6 +244,7 @@
                 <p>We listen and understand your unique needs and challenges</p>
             </div>
         </div>
+    </center>
         <div class="row foot">
             <div class="col">
                 <h1>Ready to Start Your Journey?</h1>
@@ -155,41 +256,530 @@
     </section>
      <!-- Section Approch end -->
       <!-- our portfolio -->
-       <section class="portfolio">
+       <section class="portfolio" id="portfolio">
         <center>
             <h1>
-                Our Portfolio
+                Our <span>Portfolio</span> 
             </h1>
             <p>Showcasing our latest innovations and successful project deliveries</p>
-            <nav aria-label="Page navigation example">
+            <!-- <nav aria-label="Page navigation example" >
                 <ul class="pagination justify-content-center">
-                    <!-- <li class="page-item disabled">
-                        <a class="page-link">Previous</a>
-                    </li> -->
-                    <li class="page-item" ><a  class="page-link text-dark" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item" ><a  class="page-link" href="#web_row">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#app_row">2</a></li>
                     <li class="page-item">
-                    <!-- <a class="page-link" href="#">Next</a> -->
+                    
                     </li>
                 </ul>
-            </nav>
-        </center>
-        <div class="row">
+            </nav> -->
+            <!-- row 1 -->
+            <div class="row" style="width:70%;">
+                <!-- col 1 -->
             <div class="col-3 port_card">
                 <div class="image">
-                    <img src="images/port_card.jpg" alt="" width="100%">
+                    <div style="text-align: end;">
+                        <span >web</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
                 </div>
                 <div class="data">
                     <h3>E-Commerce Platform</h3>
                     <p>A cutting-edge web solution built with modern technologies and best practices.</p>
                 </div>
             </div>
-            
+            <!-- col 2 -->
+             <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >web</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col-3 -->
+              <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >web</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col-4 -->
+              <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >web</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
         </div>
+        <!-- row 1 end -->
+         <!-- row 2 -->
+            <div class="row" style="width:70%;">
+                <!-- col 1 -->
+            <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >web</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col 2 -->
+             <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >web</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col-3 -->
+              <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >web</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col-4 -->
+              <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >web</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+        </div>
+        <!-- row 2 end -->
+         <!-- row 3 start -->
+            <div class="row" style="width:70%;" id="web_row">
+                <!-- col 1 -->
+            <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col 2 -->
+             <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col-3 -->
+              <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col-4 -->
+              <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+        </div>
+        <!-- row 4 -->
+          <div class="row" style="width:70%;" id="web_row">
+                <!-- col 1 -->
+            <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col 2 -->
+             <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col-3 -->
+              <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col-4 -->
+              <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row foot">
+            <div class="col">
+                <button>More</button>
+            </div>
+        </div>
+    </center>
        </section>
-        <!-- end portfolio -->
-      <footer style="background-color: rgb(37, 34, 34);">
+       <!-- end portfolio -->
+
+
+
+
+
+       <!-- Rehan  Section Code  -->
+
+       <section id="Rehan_section">
+
+    <center> 
+      <h1 class="Heading">Client <span>Testimonials</span></h1>
+      <h2> What our global clients say about us</h2>
+      <div class="line"></div>
+    <div class="row">
+      </center>
+      <div class="main">
+      <!-- card 1 -->
+      <div class="col-3 py-6 card_r">
+        <div class="stars">★★★★★</div>
+        <p>"Great provider! Fast work!"</p>
+        <div class="user">
+          <div class="avatar">K</div>
+        <div class="info">
+          <h4>Kurt Billups</h4>
+          <p>🇺🇸 United States</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 1 end -->
+       <!-- card 2  -->
+    <div class="col-3 py-6 card_r">
+      <div class="stars">★★★★★</div>
+      <p>"Very nice and understanding. fantastic to work with. happy to work with them for future projects,"</p>
+      <div class="user">
+        <div class="avatar">K</div>
+        <div class="info">
+          <h4>Harveer Sidhu</h4>
+          <p>CA Canada</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 2 end -->
+    <!-- card 3 start -->
+    <div class="col-3 py-6 card_r">
+      <div class="stars">★★★★★</div>
+      <p>"Highly recommended to work with."</p>
+      <div class="user">
+        <div class="avatar">K</div>
+        <div class="info">
+          <h4>Lewis</h4>
+          <p>🇺🇸 United States</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 3 end -->
+     <div class="main2">
+     <!--card 4 start-->
+<div class="col-3 py-6 card_r">
+      <div class="stars">★★★★★</div>
+      <p>"Highly recommended,always so easy to our requirements and have gotten the project smoothly."</p>
+      <div class="user">
+        <div class="avatar">K</div>
+        <div class="info">
+          <h4>Darshan</h4>
+          <p>DE btn-group-btn</p>
+        </div>
+      </div>
+    </div>
+    <!--card 4 end-->
+    <!-- card 5 start-->
+    <div class="col-3 py-6 card_r">
+      <div class="stars">★★★★★</div>
+      <p>"Amazing Team! Happy to work with them."</p>
+      <div class="user">
+        <div class="avatar">K</div>
+        <div class="info">
+          <h4>Jasper</h4>
+          <p>DK Denmark</p>
+        </div>
+     </div>
+    </div>
+    <!--card 5 end-->
+    <!-- card 6 start-->
+    <div class="col-3 py-6 card_r">
+      <div class="stars">★★★★★</div>
+      <p>"Thank you brother for the work you are very good person and you are very professional in your work."</p>
+      <div class="user">
+        <div class="avatar">K</div>
+        <div class="info">
+          <h4>Helal</h4>
+          <p>PS Palestine</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- card 6 end-->
+     </div>
+    </section>
+
+    <!-- Rehan  Section Code  End -->
+
+    <!-- Arshique Code  Start -->
+
+        <section class="Asection1" id="team">
+<div class="Acontainer1">
+<h1 class="Ah1">Our Team</h1>
+<p class="Ap">Meet the minds behind Tech Life Fusion each one contributing expertise, innovation, and commitment to tech excellence.</p>
+<center>
+
+  <div class=ATeam1>
+    
+<div class="ATeam"><img src="data:image/jpeg;base64,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 " class="aimg" alt="no">
+  <h6 class="Ateamhead">Rehan</h6>
+  <p class="Ateampara">Web-Developer</p>
+</div>
+<div class="ATeam"><img src="data:image/jpeg;base64,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" class="aimg" alt="no">
+  <h6 class="Ateamhead">Nawaz</h6>
+  <p class ="Ateampara">Web-Developer</p>
+</div>
+<div class="ATeam"><img src="data:image/jpeg;base64,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" class="aimg" alt="no">
+  <h6 class="Ateamhead">saqib</h6>
+  <p class="Ateampara">Web-Developer</p>
+</div>
+<div class="ATeam"><img src="data:image/jpeg;base64,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" class="aimg" alt="no">
+  <h6 class="Ateamhead">Arshique</h6>
+  <p class="Ateampara">Web-Developer</p>
+</div>
+</div>
+</center>
+<br><br><br><br><br><br><br>
+<div class="Achild0" >
+<h1 class="Ahead00">Still Have Questions?</h1>
+<p class="Apara00">Our team is here to help you with any additional questions you might have</p>
+<BUtton type="button" class="abutton"></i>View open positions</i></BUtton>
+</div>
+</div>
+</div>
+</section>
+<section class="Asection2">
+
+    <div class="acontainer2">
+        <h1 class="Ah1">Frequently Asked Questions</h1>
+        <p class="Ap">Get answers to common questions about our services</p>
+        <div class="achild1">
+            <button class="aaccordion">what services do you offer in machine learning? </button>
+            <div class="apanel">
+                <p class="apara0">We provide comprehensive machine learning solutions including predictive modeling, data
+                    analysis, automated decision systems, and custom ML algorithms tailored to your business needs.</p>
+                </div>
+                <button class="aaccordion ">what are you artificial intelligence services?</button>
+                <div class="apanel">
+                    <p class="apara0">Our AI services include intelligent automation, natural language processing, computer vision,
+                        chatbot development, and AI-powered business process optimization.</p>
+                    </div>
+                    <button class="aaccordion">Can you explain your full stack development services include?</button>
+                    <div class="apanel">
+                        <p class="apara0">We offer end-to-end web development including frontend interfaces, backend APIs, database
+                            design, cloud deployment, and ongoing maintenance using modern tech stacks.</p>
+                        </div>
+                        <button class="aaccordion">what do you mobile app development services include? </button>
+                        <div class="apanel">
+                            <p class="apara0">We develop native and cross-platform mobile applications for iOS and Android, including UI/UX
+                                design, backend integration, app store deployment, and post-launch support.</p>
+                            </div>
+                            <button class="aaccordion">what do you provide in Robotics?</button>
+                            <div class="apanel">
+                                <p class="apara0">Our robotics services include robotic system design, automation solutions, IoT integration,
+                                    sensor programming, and deployment of intelligent robotic systems for various industries</p>
+                                </div>
+                                <button class="aaccordion">How can Iget started with your services?</button>
+                                <div class="apanel">
+                                    <p class="apara0">Simply contact us through our contact form or email. We'll schedule a consultation to
+                                        understand your needs and provide a customized solution proposal.S</p>
+                                    </div>
+                                    <script>
+          var acc = document.getElementsByClassName("aaccordion");
+          var i;
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+            });
+          }
+        </script>
+      </div>
+      <div class="achild2">
+          <h1 class="ahead">Still Have Questions?</h1>
+          <p class="apara">Our team is here to help you with any additional questions you might have</p>
+          <button type="button"class="abutton">Contact</button>
+        </div>
+    </div>
+</section>
+    <section class="Asection3">
+        <h1 class="Ah1">Contact US</h1>
+        <p class="apara2">Get in touch with our team to discuss your next project</p>
+        <div class="row">
+          <div class="col" style="margin: 0px 40px 0px 40px;">
+            <form class="alogin">
+              <h1 class="ahead3">Send us a message</h1>
+              <div class="row">
+                <div class="col-6">
+                  <label for="First Name" class="Alabel">First Name</label>
+                  <input type="First Name" placeholder="First Name" class="Ainput">
+                </div>
+                <div class="col-6">
+                  <label for="Last Name" class="Alabel">First Name</label>
+                  <input type="Last Name" placeholder=" Enter your last name" class="Ainput">
+                </div>
+              </div>
+                  <label for="Email Address" class="Alabel">Email Address</label><br><br>
+                  <input type="Email Address " placeholder="Enter your email" class="Ainput">
+              <label for="Subject" class="Alabel">Sudject</label><br><br>
+              <input type="Subject" placeholder="Enter subject" class="Ainput">
+          
+              <label for="Message" class="Alabel">Message</label>
+              <textarea name="Message " >Message</textarea>
+              <button type="button" class="abutton">Send your message</button>
+            </form>
+          </div> 
+        </div>
+    </section>
+
+       <!-- Arshique Code  End -->
+    
+
+      <footer id="footer" >
         <div class="row container" style="width: 100%; margin: 0% 10% 0% 10%;">
             
                 <div class="col-6">
@@ -220,21 +810,23 @@
             </div>
         </div>
          
-        <div class="row" style="margin: 0% 10%;  display:flex; justify-content: space-between;">
-            <hr>    
-            <div style="display:flex; justify-content: space-between;">
+       
+       
+            <div class="row footy" >
+                  <hr>  
+                <div class="col-8" >
                     <div>
                     <p>© 2024 Tech Life Fusion. All rights reserved.</p>
                     </div>
-                            <div style=" padding-left: 0%; display:flex; justify-content: space-between; ">
-                                <div style="padding-left: 5%;"><p >Privacy Policy</p></div>
-                                <div style="padding-left: 5%;"><p>Terms of Service</p></div>
-                                <div style="padding-left: 5%;"><p>Cookie Policy</p></div>
-                            </div>
-                        
                     </div>
+                    <div class="col-4" style=" padding-left: 0%; display:flex; justify-content: space-between; ">
+                                <div><p >Privacy Policy</p></div>
+                                <div><p>Terms of Service</p></div>
+                                <div><p>Cookie Policy</p></div>
+                            </div>
                 </div>
+            
     </footer>
-    </body>
+</body>
 
 </html>

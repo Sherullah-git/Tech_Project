@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY first Project </title>
-    <!-- link Font Awesome -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    \<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
     <link rel="stylesheet" href="style.css">
@@ -16,13 +14,11 @@
     <body>
     <!-- Navbar -->
     <header class="container-fluid gap-5 ">
-        <div class="row" style="">
-
-            <div class="col-2"  >
-                <img src="images/logo.jpg" width="100px" style=" padding:0.5em;  border-left: 2px solid red; border-radius:50%  ;" alt="">
+        <div class="row ">
+            <div class="col-3"  >
+                <img src="images/logo.jpg" class="logo_img" width="100px" alt="">
             </div>
-            <div class=" col-10 logo py-0 " style="padding-left: 2px;">
-                
+            <div class=" logo col-9">  
                 <h1 class="">Tech Life Fusion</h1>
             </div>
         </div>
@@ -66,18 +62,7 @@
                             <div class="col-4"><h1>4</h1><p>Experts</p></div>
                         </div>
                     </center>
-                <!-- <div class="d-flex justify-content-center gap-5 pr-1 bold">
-                    <span>
-                        <h1></h1>
-                        <p><b>20+</b><br>Clients</p>
-                    </span>
-                    <span>
-                        <p><b>24+</b><br>Projects</p>
-                    </span>
-                    <span>
-                        <p><b>4</b><br>Experts</p>
-                    </span>
-                </div> -->
+               
             </div>
     </section>
     <!-- section 1 end -->
@@ -107,13 +92,14 @@
         
         </div>
         <center>
-            <div class="row container" style=" justify-content:space-between; width: 100%;  text-align: center; margin:4%;">
+            <div class="row container" style=" justify-content:space-between; width: 100%;  text-align: center;">
                 <div class="col-2"><p><h1>1+</h1>Years of Innovation</p> </div>
                 <div class= "col-2"><p><h1>15+</h1>Technologies Mastered</p></div>
                 <div class="col-2"><p><h1>98%</h1>Succes Rate</p></div>
                 <div class="col-2"><p><h1>100%</h1>Client Satisfaction</p></div>
             </div>
         </center>
+        <br><br><br><br>
     </section>
     <!-- Section Approch -->
      <section class="approch">
@@ -163,14 +149,14 @@
                 Our Portfolio
             </h1>
             <p>Showcasing our latest innovations and successful project deliveries</p>
-            <nav aria-label="Page navigation example">
+            <nav aria-label="Page navigation example" >
                 <ul class="pagination justify-content-center">
                     <!-- <li class="page-item disabled">
                         <a class="page-link">Previous</a>
                     </li> -->
-                    <li class="page-item" ><a  class="page-link text-dark" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item" ><a  class="page-link" href="#web_row">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#app_row">2</a></li>
+                    <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                     <li class="page-item">
                     <!-- <a class="page-link" href="#">Next</a> -->
                     </li>
@@ -313,12 +299,12 @@
         </div>
         <!-- row 2 end -->
          <!-- row 3 start -->
-            <div class="row" style="width:70%;">
+            <div class="row" style="width:70%;" id="web_row">
                 <!-- col 1 -->
             <div class="col-3 port_card">
                 <div class="image">
                     <div style="text-align: end;">
-                        <span >web</span>
+                        <span >App</span>
                     </div>
                     <div class="row">
                         <div class="col"><img src="images/git.svg"  alt=""></div>
@@ -334,7 +320,7 @@
              <div class="col-3 port_card">
                 <div class="image">
                     <div style="text-align: end;">
-                        <span >web</span>
+                        <span >App</span>
                     </div>
                     <div class="row">
                         <div class="col"><img src="images/git.svg"  alt=""></div>
@@ -350,7 +336,7 @@
               <div class="col-3 port_card">
                 <div class="image">
                     <div style="text-align: end;">
-                        <span >web</span>
+                        <span >App</span>
                     </div>
                     <div class="row">
                         <div class="col"><img src="images/git.svg"  alt=""></div>
@@ -366,7 +352,74 @@
               <div class="col-3 port_card">
                 <div class="image">
                     <div style="text-align: end;">
-                        <span >web</span>
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+        </div>
+        <!-- row 4 -->
+          <div class="row" style="width:70%;" id="web_row">
+                <!-- col 1 -->
+            <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col 2 -->
+             <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col-3 -->
+              <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="images/git.svg"  alt=""></div>
+                        <div class="col"><img src="images/arrow.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="data">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A cutting-edge web solution built with modern technologies and best practices.</p>
+                </div>
+            </div>
+            <!-- col-4 -->
+              <div class="col-3 port_card">
+                <div class="image">
+                    <div style="text-align: end;">
+                        <span >App</span>
                     </div>
                     <div class="row">
                         <div class="col"><img src="images/git.svg"  alt=""></div>
@@ -384,8 +437,103 @@
        <!-- end portfolio -->
 
 
+       <!-- Rehan  Section Code  -->
 
+       <section id="Rehan_section">
 
+    <center> 
+      <h1 class="Heading">Client <span>Testimonials</span></h1>
+      <h2> What our global clients say about us</h2>
+      <div class="line"></div>
+    <div class="row">
+      </center>
+      <div class="main">
+      <!-- card 1 -->
+      <div class="col-3 py-6 card_r">
+        <div class="stars">★★★★★</div>
+        <p>"Great provider! Fast work!"</p>
+        <div class="user">
+          <div class="avatar">K</div>
+        <div class="info">
+          <h4>Kurt Billups</h4>
+          <p>🇺🇸 United States</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 1 end -->
+       <!-- card 2  -->
+    <div class="col-3 py-6 card_r">
+      <div class="stars">★★★★★</div>
+      <p>"Very nice and understanding. fantastic to work with. happy to work with them for future projects,"</p>
+      <div class="user">
+        <div class="avatar">K</div>
+        <div class="info">
+          <h4>Harveer Sidhu</h4>
+          <p>CA Canada</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 2 end -->
+    <!-- card 3 start -->
+    <div class="col-3 py-6 card_r">
+      <div class="stars">★★★★★</div>
+      <p>"Highly recommended to work with."</p>
+      <div class="user">
+        <div class="avatar">K</div>
+        <div class="info">
+          <h4>Lewis</h4>
+          <p>🇺🇸 United States</p>
+        </div>
+      </div>
+    </div>
+    <!-- card 3 end -->
+     <div class="main2">
+     <!--card 4 start-->
+<div class="col-3 py-6 card_r">
+      <div class="stars">★★★★★</div>
+      <p>"Highly recommended,always so easy to our requirements and have gotten the project smoothly."</p>
+      <div class="user">
+        <div class="avatar">K</div>
+        <div class="info">
+          <h4>Darshan</h4>
+          <p>DE btn-group-btn</p>
+        </div>
+      </div>
+    </div>
+    <!--card 4 end-->
+    <!-- card 5 start-->
+    <div class="col-3 py-6 card_r">
+      <div class="stars">★★★★★</div>
+      <p>"Amazing Team! Happy to work with them."</p>
+      <div class="user">
+        <div class="avatar">K</div>
+        <div class="info">
+          <h4>Jasper</h4>
+          <p>DK Denmark</p>
+        </div>
+     </div>
+    </div>
+    <!--card 5 end-->
+    <!-- card 6 start-->
+    <div class="col-3 py-6 card_r">
+      <div class="stars">★★★★★</div>
+      <p>"Thank you brother for the work you are very good person and you are very professional in your work."</p>
+      <div class="user">
+        <div class="avatar">K</div>
+        <div class="info">
+          <h4>Helal</h4>
+          <p>PS Palestine</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- card 6 end-->
+     </div>
+    </section>
+
+    <!-- Rehan  Section Code  End -->
+
+    
 
       <footer style="background-color: rgb(37, 34, 34);">
         <div class="row container" style="width: 100%; margin: 0% 10% 0% 10%;">
